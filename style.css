@@ -1,0 +1,212 @@
+*{padding: 0%;margin: 0%;}
+/* جزء تنسيق ال slider*/
+.container{width: 2000px; overflow: hidden; margin: auto;}
+.ul{display: inline-flex; position: relative;animation:x 15s ease-in-out infinite; }
+.li1
+{height: 700px;width: 2000px;}
+.li2
+{height: 700px;width: 2000px;}
+.li3
+{height: 700px;width: 2000px;}
+.li4
+{height: 700px;width: 2000px;}
+
+@keyframes x
+{
+    0%{right: 0;}
+    30%{right:2000px;}
+    60%{right: 4000px;}
+    100%{right: 6000px;}
+}
+/*  الجزء الخاص بتنسيق الجزء اللى تحت ال slider*/
+.bottom 
+{
+    width: 2000px;
+    border-color: black;
+    background-image: url(images/15.jpg);
+    background-size: cover;
+}
+.p2 img
+{
+    border: 3px;
+    height: 100;
+    width: 100;
+    display: block;
+    position: relative;
+    left: 885px;
+    clip-path: circle(); /* الكود ده علشان يخلى شكلها دائرى*/
+    /* جزء css3*/
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.p2
+{
+    overflow: hidden;
+
+}
+/* جزء css3*/
+.p2:hover img
+{
+    -webkit-transform: scale(1.1); 
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.b2
+{
+  color: black;
+  position: relative;
+  left: 320px;
+  bottom: 450px;
+  font-size: larger;
+}
+.b2:hover
+{
+    /* اللون اللى بيظهر لما نقرب من النص*/
+    color: rgb(196, 207, 255);
+   
+}
+
+.p3 img
+{
+    position: relative;
+    left: 0px;
+    clip-path: circle();
+     /* جزء css3*/
+     -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+     -o-transition: all 0.5s ease;
+     transition: all 0.5s ease;
+}
+.p3
+{
+    overflow: hidden;
+
+}
+/* جزء css3*/
+.p3:hover img
+{
+    -webkit-transform: scale(1.1); 
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.b3
+{
+  color: black;
+  position: relative;
+  left: 700px;
+  bottom: 450px;
+  font-size: larger;
+}
+.b3:hover
+{
+    color: rgb(196, 207, 255);
+   
+}
+.p4 img
+{
+    position: relative;
+    left: 885px;
+    clip-path: circle();
+     /* جزء css3*/
+     -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+     -o-transition: all 0.5s ease;
+     transition: all 0.5s ease;
+}
+
+/* جزء css3*/
+.p4:hover img
+{
+    -webkit-transform: scale(1.05); 
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+}
+.b4
+{
+  color: black;
+  position: relative;
+  left: 250px;
+  bottom: 300px;
+  font-size: larger;
+}
+.b4:hover
+{
+    color: rgb(196, 207, 255);
+   
+}
+.p5 img
+{
+    position: relative;
+    left: 0px;
+    clip-path: circle();
+     /* جزء css3*/
+     -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+     -o-transition: all 0.5s ease;
+     transition: all 0.5s ease;
+}
+
+/* جزء css3*/
+.p5:hover img
+{
+    -webkit-transform: scale(1.1); 
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.b5
+{
+  color: black;
+  position: relative;
+  left: 750px;
+  bottom: 325px;
+  font-size: larger;
+}
+.b5:hover
+{
+    color: rgb(196, 207, 255);
+   
+}
+.p6 img
+{
+    position: relative;
+    left: 885px;
+    clip-path: circle();
+     /* جزء css3*/
+     -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+     -o-transition: all 0.5s ease;
+     transition: all 0.5s ease;
+
+}
+.p6
+{
+    overflow: hidden;
+
+}
+/* جزء css3*/
+.p6:hover img
+{
+    -webkit-transform: scale(1.1); 
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.b6
+{
+  color: black;
+  position: relative;
+  left: 350px;
+  bottom: 450px;
+  font-size: larger;
+}
+.b6:hover
+{
+    color: rgb(196, 207, 255);
+   
+}
